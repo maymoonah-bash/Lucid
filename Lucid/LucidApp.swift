@@ -11,7 +11,7 @@ import SwiftUI
 struct LucidApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TextPage()
         }
     }
 }
