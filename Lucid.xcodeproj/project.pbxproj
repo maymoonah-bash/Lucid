@@ -7,13 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318F292F296AF3730075D98F /* Onbording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318F292E296AF3730075D98F /* Onbording.swift */; };
+		318F2938296C2E4C0075D98F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318F2937296C2E4C0075D98F /* WidgetKit.framework */; };
+		318F293A296C2E4C0075D98F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318F2939296C2E4C0075D98F /* SwiftUI.framework */; };
+		318F293D296C2E4C0075D98F /* lucidWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318F293C296C2E4C0075D98F /* lucidWidgetBundle.swift */; };
+		318F293F296C2E4C0075D98F /* lucidWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318F293E296C2E4C0075D98F /* lucidWidget.swift */; };
+		318F2941296C2E4E0075D98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318F2940296C2E4E0075D98F /* Assets.xcassets */; };
+		318F2945296C2E4E0075D98F /* lucidWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 318F2935296C2E4C0075D98F /* lucidWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		71D04A4F296AE59000866021 /* LucidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D04A4E296AE59000866021 /* LucidApp.swift */; };
 		71D04A51296AE59000866021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D04A50296AE59000866021 /* ContentView.swift */; };
 		71D04A53296AE59200866021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D04A52296AE59200866021 /* Assets.xcassets */; };
 		71D04A56296AE59200866021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D04A55296AE59200866021 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		318F2943296C2E4E0075D98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71D04A43296AE58F00866021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318F2934296C2E4C0075D98F;
+			remoteInfo = lucidWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		318F2946296C2E4E0075D98F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				318F2945296C2E4E0075D98F /* lucidWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		318F292E296AF3730075D98F /* Onbording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onbording.swift; sourceTree = "<group>"; };
+		318F2930296B01240075D98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		318F2935296C2E4C0075D98F /* lucidWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = lucidWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		318F2937296C2E4C0075D98F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		318F2939296C2E4C0075D98F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		318F293C296C2E4C0075D98F /* lucidWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lucidWidgetBundle.swift; sourceTree = "<group>"; };
+		318F293E296C2E4C0075D98F /* lucidWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lucidWidget.swift; sourceTree = "<group>"; };
+		318F2940296C2E4E0075D98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		318F2942296C2E4E0075D98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D04A4B296AE59000866021 /* Lucid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D04A4E296AE59000866021 /* LucidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LucidApp.swift; sourceTree = "<group>"; };
 		71D04A50296AE59000866021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +62,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		318F2932296C2E4C0075D98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318F293A296C2E4C0075D98F /* SwiftUI.framework in Frameworks */,
+				318F2938296C2E4C0075D98F /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71D04A48296AE59000866021 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +81,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		318F2936296C2E4C0075D98F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				318F2937296C2E4C0075D98F /* WidgetKit.framework */,
+				318F2939296C2E4C0075D98F /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		318F293B296C2E4C0075D98F /* lucidWidget */ = {
+			isa = PBXGroup;
+			children = (
+				318F293C296C2E4C0075D98F /* lucidWidgetBundle.swift */,
+				318F293E296C2E4C0075D98F /* lucidWidget.swift */,
+				318F2940296C2E4E0075D98F /* Assets.xcassets */,
+				318F2942296C2E4E0075D98F /* Info.plist */,
+			);
+			path = lucidWidget;
+			sourceTree = "<group>";
+		};
 		71D04A42296AE58F00866021 = {
 			isa = PBXGroup;
 			children = (
 				71D04A4D296AE59000866021 /* Lucid */,
+				318F293B296C2E4C0075D98F /* lucidWidget */,
+				318F2936296C2E4C0075D98F /* Frameworks */,
 				71D04A4C296AE59000866021 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				71D04A4B296AE59000866021 /* Lucid.app */,
+				318F2935296C2E4C0075D98F /* lucidWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +123,10 @@
 		71D04A4D296AE59000866021 /* Lucid */ = {
 			isa = PBXGroup;
 			children = (
+				318F2930296B01240075D98F /* Info.plist */,
 				71D04A4E296AE59000866021 /* LucidApp.swift */,
 				71D04A50296AE59000866021 /* ContentView.swift */,
+				318F292E296AF3730075D98F /* Onbording.swift */,
 				71D04A52296AE59200866021 /* Assets.xcassets */,
 				71D04A54296AE59200866021 /* Preview Content */,
 			);
@@ -70,6 +144,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		318F2934296C2E4C0075D98F /* lucidWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318F2949296C2E4E0075D98F /* Build configuration list for PBXNativeTarget "lucidWidgetExtension" */;
+			buildPhases = (
+				318F2931296C2E4C0075D98F /* Sources */,
+				318F2932296C2E4C0075D98F /* Frameworks */,
+				318F2933296C2E4C0075D98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lucidWidgetExtension;
+			productName = lucidWidgetExtension;
+			productReference = 318F2935296C2E4C0075D98F /* lucidWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		71D04A4A296AE59000866021 /* Lucid */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71D04A59296AE59200866021 /* Build configuration list for PBXNativeTarget "Lucid" */;
@@ -77,10 +168,12 @@
 				71D04A47296AE59000866021 /* Sources */,
 				71D04A48296AE59000866021 /* Frameworks */,
 				71D04A49296AE59000866021 /* Resources */,
+				318F2946296C2E4E0075D98F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				318F2944296C2E4E0075D98F /* PBXTargetDependency */,
 			);
 			name = Lucid;
 			productName = Lucid;
@@ -94,9 +187,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					318F2934296C2E4C0075D98F = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					71D04A4A296AE59000866021 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -109,6 +205,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 71D04A42296AE58F00866021;
 			productRefGroup = 71D04A4C296AE59000866021 /* Products */;
@@ -116,11 +213,20 @@
 			projectRoot = "";
 			targets = (
 				71D04A4A296AE59000866021 /* Lucid */,
+				318F2934296C2E4C0075D98F /* lucidWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		318F2933296C2E4C0075D98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318F2941296C2E4E0075D98F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71D04A49296AE59000866021 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,10 +239,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		318F2931296C2E4C0075D98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318F293D296C2E4C0075D98F /* lucidWidgetBundle.swift in Sources */,
+				318F293F296C2E4C0075D98F /* lucidWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71D04A47296AE59000866021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318F292F296AF3730075D98F /* Onbording.swift in Sources */,
 				71D04A51296AE59000866021 /* ContentView.swift in Sources */,
 				71D04A4F296AE59000866021 /* LucidApp.swift in Sources */,
 			);
@@ -144,7 +260,71 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		318F2944296C2E4E0075D98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318F2934296C2E4C0075D98F /* lucidWidgetExtension */;
+			targetProxy = 318F2943296C2E4E0075D98F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		318F2947296C2E4E0075D98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW22XXFPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lucidWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = lucidWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.Lucid.lucidWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		318F2948296C2E4E0075D98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW22XXFPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = lucidWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = lucidWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = twq.Lucid.lucidWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		71D04A57296AE59200866021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,6 +442,7 @@
 		71D04A5A296AE59200866021 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -270,6 +451,7 @@
 				DEVELOPMENT_TEAM = VYW22XXFPS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lucid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,6 +473,7 @@
 		71D04A5B296AE59200866021 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +482,7 @@
 				DEVELOPMENT_TEAM = VYW22XXFPS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lucid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +504,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		318F2949296C2E4E0075D98F /* Build configuration list for PBXNativeTarget "lucidWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318F2947296C2E4E0075D98F /* Debug */,
+				318F2948296C2E4E0075D98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		71D04A46296AE58F00866021 /* Build configuration list for PBXProject "Lucid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
