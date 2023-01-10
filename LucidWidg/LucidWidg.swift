@@ -78,7 +78,7 @@ struct LucidWidgEntryView : View {
                         .frame(width: 50).frame(maxWidth: 1150, alignment: .leading)
                     
                     Text("Lucid").font(.title2).fontWeight(.bold).frame(maxWidth: 150, alignment: .leading)
-                    Text("Your speech impediment helper").frame(maxWidth: 1150, alignment: .leading)
+                    Text("Your personal voice assistant").frame(maxWidth: 1150, alignment: .leading)
                         .font(.caption)
                 }.foregroundColor(.white).padding().frame(maxWidth: 150, alignment: .leading)
             }.padding(1).background(.gray.gradient)
