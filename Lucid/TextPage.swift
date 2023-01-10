@@ -18,6 +18,7 @@ struct TextPage: View {
                     .padding(.top, 25)
                     .padding(.leading, 10)
                     .opacity(self.content.isEmpty ? 0.25 : 1)
+                    .foregroundColor(CustomColor.Text)
                 
                 if content.isEmpty {
                     Text("Tap to start typing")
