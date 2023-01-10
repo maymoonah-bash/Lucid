@@ -116,7 +116,7 @@ struct Onbording: View {
                     },
                            
                 label:{Image(systemName: "arrow.right.circle.fill").resizable().aspectRatio(contentMode: .fit).frame(width: 60)
-                            .padding().foregroundColor(Color("OurBlue"))
+                            .padding().foregroundColor(Color("OurBlue")).flipsForRightToLeftLayoutDirection(true)
                         })
                     
                     Spacer()
