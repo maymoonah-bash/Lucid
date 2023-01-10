@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TextPage: View {
     @State private var content = ""
+    @AppStorage("key") var shouldShow = true
     var body: some View {
         VStack {
             ZStack(alignment: .leading) {
@@ -36,7 +37,10 @@ struct TextPage: View {
                 .buttonStyle(GrowingButton())
             }
         }.onTapGesture { hideKeyboard() }
-            .ignoresSafeArea(.keyboard)
+            .ignoresSafeArea(.keyboard).fullScreenCover(isPresented: $shouldShow) {
+                Onbording(shouldShow: $shouldShow)
+            }
+        
         
     }
 }
