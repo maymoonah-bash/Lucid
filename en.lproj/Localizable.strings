@@ -5,15 +5,18 @@
   Created by Maimuna on 16/06/1444 AH.
   
 */
+//-------------------------- textpage
 "Clear" = "Clear";
 "Tap to start typing" = "Tap to start typing";
-"Your voice" = "Your voice";
-"hlper Lucid" = "hlper Lucid";
-"Lucid is Your voice helper. It hlep you to commnicate with other, just type what you want to say and lucid will say it for you " = "Lucid is Your voice helper. It hlep you to commnicate with other, just type what you want to say and lucid will say it for you ";
+//-------------------------- onboarding
+"Lucid" = "Lucid";
+"Voice Assistant" = "Voice Assistant";
+"Lucid is your personal voice assistant that will help you communicate with others.  Just type the words and Lucid will say them for you." = "Lucid is your personal voice assistant that will help you communicate with others.  Just type the words and Lucid will say them for you.";
 "Enable" = "Enable";
 "Spoken Content" = "Spoken Content";
-"Please Go to the setting to enable the spoken content in the accessibility so you can get all the benefit from the App" = "Please Go to the setting to enable the spoken content in the accessibility so you can get all the benefit from the App";
+"To enable the app to speak, Please go to setting and enable  spoken content in the accessibility section so you can use the app to its full potential." = "To enable the app to speak, press the button below to go to settings > accessibility > enable speak-screen so you can use the app to its full potential.";
 "Enable Spoken Content" = "Enable Spoken Content";
 "Slide" = "Slide";
 "Two Fingers" = "Two Fingers";
-"Slide two fingers from up to down so the Spoken Content work with you" = "Slide two fingers from up to down so the Spoken Content work with you";
+"Slide down with two fingers from the top of the screen to hear the text." = "Slide down with two fingers from the top of the screen to hear the text.";
+

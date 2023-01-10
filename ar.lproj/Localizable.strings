@@ -5,6 +5,18 @@
   Created by Maimuna on 16/06/1444 AH.
   
 */
+//-------------------------- textpage
 "Clear" = "مسح";
 "Tap to start typing" = "انقر لبدء الكتابة";
+//-------------------------- onboarding
+"Lucid" = "لوسيد";
+"Voice Assistant" = "مساعدك الصوتي";
+"Lucid is your personal voice assistant that will help you communicate with others.  Just type the words and Lucid will say them for you." = "لوسيد مساعدك الصوتي. يساعدك لوسيد على التواصل مع الآخرين، فقط اكتب ما تريد قوله وسنساعدك في إيصاله.";
+"Enable" = "تمكين";
+"Spoken Content" = "المحتوى المنطوق";
+"To enable the app to speak, press the button below to go to settings > accessibility > enable speak-screen so you can use the app to its full potential." = "لتمكين التطبيق من التحدث ، يرجى الانتقال إلى الإعدادت وتمكين المحتوى المنطوق >  نطق الشاشة في قسم إمكانية الوصول حتى تتمكن من استخدام التطبيق إلى أقصى إمكاناته.";
+"Enable Spoken Content" = "مكّن المحتوى المنطوق";
+"Slide" = "حرك";
+"Two Fingers" = "إصبعين";
+"Slide down with two fingers from the top of the screen to hear the text." = "مرر  إصبعين من أعلى الشاشة إلى نهايتها حتى تستطيع سماع النص المكتوب.";
 

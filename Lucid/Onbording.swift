@@ -23,17 +23,21 @@ struct Onbording: View {
                         .frame(width: 130).padding().padding(.top)
                     Spacer()
                     
-                    Text("Your voice  ")
+                    Text("Lucid")
                         .font(.system(size: 46)).frame(maxWidth: 300, alignment: .leading)
-                    Text("hlper Lucid")
+                        .foregroundColor(CustomColor.Text)//Color
+                        .fontWeight(.bold)
+                    Text("Voice Assistant")
                         .font(.system(size: 46))
-                        .fontWeight(.bold).frame(maxWidth: 300, alignment: .leading).padding(.bottom)
+                        .frame(maxWidth: 300, alignment: .leading).padding(.bottom)
+                        .foregroundColor(CustomColor.Text)//Color
                     
                     Divider().frame(maxWidth: 300).padding(.bottom)
                     
-                    Text("Lucid is Your voice helper. It hlep you to commnicate with other, just type what you want to say and lucid will say it for you ")
+                    Text("Lucid is your personal voice assistant that will help you communicate with others.  Just type the words and Lucid will say them for you.")
                         .font(.system(size: 20))
                         .frame(maxWidth: 300, alignment: .leading)
+                        .foregroundColor(CustomColor.Text)//Color
                     Spacer()
                 } .tag(1)
                 
@@ -48,12 +52,16 @@ struct Onbording: View {
                     
                     Text("Enable")
                         .font(.system(size: 46)).frame(maxWidth: 300, alignment: .leading)
+                        .foregroundColor(CustomColor.Text)//Color
                     Text("Spoken Content")
                         .font(.system(size: 46))
-                        .fontWeight(.bold).frame(maxWidth: 300, alignment: .leading).padding(.bottom)
+                        .frame(maxWidth: 300, alignment: .leading).padding(.bottom)
+                        .foregroundColor(CustomColor.Text)//Color
+                        .fontWeight(.bold)
                     Divider().frame(maxWidth: 300).padding(.bottom)
                     
-                    Text("Please Go to the setting to enable the spoken content > Speak Screen in the accessibility so you can get all the benefit from the App. ")
+                    Text("To enable the app to speak, press the button below to go to settings > accessibility > enable speak-screen so you can use the app to its full potential.")
+                        .foregroundColor(CustomColor.Text)//Color
                         .font(.system(size: 20))
                         .frame(maxWidth: 300, alignment: .leading)
                     
@@ -86,13 +94,16 @@ struct Onbording: View {
                     
                     Text("Slide")
                         .font(.system(size: 46)).frame(maxWidth: 300, alignment: .leading)
-                    Text("Two Fingers ")
+                        .foregroundColor(CustomColor.Text)//Color
+                    Text("Two Fingers")
                         .font(.system(size: 46))
+                        .foregroundColor(CustomColor.Text)//Color
                         .fontWeight(.bold).frame(maxWidth: 300, alignment: .leading).padding(.bottom)
                     Divider().frame(maxWidth: 300).padding(.bottom)
                     
-                    Text("Slide two fingers from up to down so the Spoken Content work with you. ")
+                    Text("Slide down with two fingers from the top of the screen to hear the text.")
                         .font(.system(size: 20))
+                        .foregroundColor(CustomColor.Text)//Color
                         .frame(maxWidth: 300, alignment: .leading)
                     
                     Spacer()
