@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Onbording: View {
     @State private var selectedTab = 1
-    //@Binding  var shouldShow :Bool
+    @Binding  var shouldShow :Bool
     var body: some View {
         NavigationView{
             
@@ -100,8 +100,8 @@ struct Onbording: View {
                 
                     
                     Button(action: {
-                        //shouldShow = false
-                        //Text("Start")
+                        shouldShow = false
+                        
                     },
                            
                 label:{Image(systemName: "arrow.right.circle.fill").resizable().aspectRatio(contentMode: .fit).frame(width: 60)
@@ -133,8 +133,8 @@ struct Onbording: View {
       }
   
 
-struct Onbording_Previews: PreviewProvider {
-    static var previews: some View {
-        Onbording()
-    }
-}
+//struct Onbording_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Onbording()
+//    }
+//}
