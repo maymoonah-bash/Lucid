@@ -1,3 +1,4 @@
+<img width="292" alt="Screen Shot 1444-06-15 at 3 38 57 PM" src="https://user-images.githubusercontent.com/68162866/211814200-77af543c-3c24-4b50-a3ae-25a77799188b.png">
 # Lucid 
 
 ## Big Idea
