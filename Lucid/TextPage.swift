@@ -19,17 +19,18 @@ struct TextPage: View {
                     .padding(.leading, 10)
                     .opacity(self.content.isEmpty ? 0.25 : 1)
                     .foregroundColor(CustomColor.Text)
+                    .bold()
                 
                 if content.isEmpty {
                     Text("Tap to start typing")
                         .font(.largeTitle)
                         .foregroundColor(Color.gray)
-                        .padding(.top, 65)
-                        .padding(.top, -370)
+                        .position(x: 145, y: 55)
                         .padding(.leading, 14)
+                        .bold()
                 }
             }
-            if content.isEmpty {
+            if !content.isEmpty {
                 Button("Clear") {
                     self.content = ""
                 }
