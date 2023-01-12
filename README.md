@@ -21,3 +21,6 @@ https://user-images.githubusercontent.com/68162866/211813931-01b992a2-34ed-4c9b-
 
 ## Challenge Summary
 An App that provides an easy way for someone with permanent or temporary speech impediment who want(s) to efficiently communicate with others face to face by clear text size and spoken content
+
+## AppStore link
+https://apps.apple.com/app/lucid-speech-assistant/id1664144062
