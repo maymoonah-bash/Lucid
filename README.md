@@ -26,3 +26,12 @@ An App that provides an easy way for someone with permanent or temporary speech 
 
 ## AppStore link
 https://apps.apple.com/app/lucid-speech-assistant/id1664144062
+
+## Developers
+>> Maimunah Bashir 
+linkedin: www.linkedin.com/in/maimuna-bashir-b22a4b196
+
+>>Amaal AlOtaibi
+![linkedin](https://user-images.githubusercontent.com/68162866/212069140-2a47c898-a242-4e58-b53d-9e550f00ca15.png)
+
+Linkedin: 
