@@ -32,6 +32,4 @@ https://apps.apple.com/app/lucid-speech-assistant/id1664144062
 linkedin: www.linkedin.com/in/maimuna-bashir-b22a4b196
 
 >>Amaal AlOtaibi
-![linkedin](https://user-images.githubusercontent.com/68162866/212069140-2a47c898-a242-4e58-b53d-9e550f00ca15.png)
-
-Linkedin: 
+Linkedin: https://www.linkedin.com/in/amaal-alotaibi-a29657155/?original_referer=
